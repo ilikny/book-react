@@ -1,0 +1,26 @@
+.burger{
+  margin-left: auto;
+  >div {
+    background-color: black;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 1px;
+    border-radius: 1px;
+    width: 20px;
+    
+  }
+}
+
+.top__nav{
+  margin-left: auto;
+  padding: 5px;
+  > a{
+    margin: 3px;
+    text-decoration: none;
+    color: black;
+      &.link--highlighted {
+          color: gray;
+        }
+  }
+}
+
