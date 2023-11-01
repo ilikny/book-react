@@ -5,6 +5,7 @@ import MainContent from './MainContent'
 import CurrencyContext from './CurrencyContext.js'
 import Context from './Context.js'
 import reducer from './reducer'
+import { BrowserRouter } from 'react-router-dom'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
 
   return (
+    <BrowserRouter>
     <Context.Provider value={
       {
     state: contextValue,
@@ -61,6 +63,7 @@ function App() {
 
     </CurrencyContext.Provider>
     </Context.Provider>
+    </BrowserRouter>
 
   )
 }

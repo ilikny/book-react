@@ -13,6 +13,9 @@ export default function Book({ title, price, id }) {
 
    }
 
+
+   
+
     return (
         <li>
             { title } { price } <button onClick={ handleClick } className='add_cart' >Add to cart</button>
